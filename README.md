@@ -72,10 +72,13 @@ To build a modular, maintainable ETL framework ensuring:
 
 ## 👨‍💻 Author
 
+
 **Ravi Nandan Yadav**  
 📍 Gaya, India  
 📧 [ravinandanyadavwork@gmail.com](mailto:ravinandanyadavwork@gmail.com)  
 🔗 [GitHub Repository](https://github.com/ravi-nandan-yadav/sql-data-analytics-project)
+LinkedIN: https://www.linkedin.com/in/ravi-nandan-yadav-156a6a15a/
+Contact Number: 8507528999/8210710109
 
 ---
 
