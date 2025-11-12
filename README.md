@@ -26,7 +26,7 @@ sql_scripts/
 
 | No. | File | Description | Download |
 |----:|------|--------------|-----------|
-| 1 | ddl_bronze.sql | Creates Bronze layer schema (raw data tables). | [Get this file](https://github.com/ravi-nandan-yadav/sql-data-analytics-project_2/blob/main/scripts_2/ddl_bronze.sql) |
+| 1 | ddl_bronze.sql | Creates Bronze layer schema (raw data tables). | [Get this file](https://github.com/ravi-nandan-yadav/sql-data-analytics-project_2/commit/1453424f2831af4ccd2a21bc549b8ed35b863dca) |
 | 2 | proc_load_bronze.sql | Loads raw CRM & ERP data into Bronze tables. | [Get this file](https://github.com/ravi-nandan-yadav/sql-data-analytics-project_2/blob/main/scripts_2/proc_load_bronze.sql) |
 | 3 | ddl_silver.sql | Defines Silver layer schema (cleaned, standardized tables). | [Get this file](https://github.com/ravi-nandan-yadav/sql-data-analytics-project_2/blob/main/scripts_2/ddl_silver.sql) |
 | 4 | proc_load_silver.sql | Transforms and loads Bronze → Silver. | [Get this file](https://github.com/ravi-nandan-yadav/sql-data-analytics-project_2/blob/main/scripts_2/proc_load_silver.sql) |
