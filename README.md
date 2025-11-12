@@ -24,16 +24,13 @@ sql_scripts/
 
 ---
 
-## 📘 SQL Scripts Explained
-
-| No. | Script | Description | Download |
-|----:|---------|--------------|-----------|
-| 1 | ddl_bronze.sql | Defines schema and tables for **Bronze layer** — initial raw data storage. | [Get this file](https://github.com/ravi-nandan-yadav/sql-data-analytics-project/blob/main/sql_scripts/ddl_bronze.sql) |
-| 2 | proc_load_bronze.sql | Stored procedure to **load, clean, and validate** CRM & ERP raw data into Bronze tables. | [Get this file](https://github.com/ravi-nandan-yadav/sql-data-analytics-project/blob/main/sql_scripts/proc_load_bronze.sql) |
-| 3 | ddl_silver.sql | Creates schema and tables for **Silver layer**, where standardized and enriched data resides. | [Get this file](https://github.com/ravi-nandan-yadav/sql-data-analytics-project/blob/main/sql_scripts/ddl_silver.sql) |
-| 4 | proc_load_silver.sql | Procedure to **transform Bronze → Silver**; handles data cleansing, joins, and enrichment logic. | [Get this file](https://github.com/ravi-nandan-yadav/sql-data-analytics-project/blob/main/sql_scripts/proc_load_silver.sql) |
-| 5 | ddl_gold.sql | Defines schema for **Gold layer** — final dimensional and fact tables for reporting. | [Get this file](https://github.com/ravi-nandan-yadav/sql-data-analytics-project/blob/main/sql_scripts/ddl_gold.sql) |
-
+| No. | File | Description | Download |
+|----:|------|--------------|-----------|
+| 1 | ddl_bronze.sql | Creates Bronze layer schema (raw data tables). | [Get this file](https://github.com/ravi-nandan-yadav/sql-data-analytics-project_2/blob/main/scripts_2/ddl_bronze.sql) |
+| 2 | proc_load_bronze.sql | Loads raw CRM & ERP data into Bronze tables. | [Get this file](https://github.com/ravi-nandan-yadav/sql-data-analytics-project_2/blob/main/scripts_2/proc_load_bronze.sql) |
+| 3 | ddl_silver.sql | Defines Silver layer schema (cleaned, standardized tables). | [Get this file](https://github.com/ravi-nandan-yadav/sql-data-analytics-project_2/blob/main/scripts_2/ddl_silver.sql) |
+| 4 | proc_load_silver.sql | Transforms and loads Bronze → Silver. | [Get this file](https://github.com/ravi-nandan-yadav/sql-data-analytics-project_2/blob/main/scripts_2/proc_load_silver.sql) |
+| 5 | ddl_gold.sql | Creates Gold layer schema (fact and dimension tables). | [Get this file](https://github.com/ravi-nandan-yadav/sql-data-analytics-project_2/blob/main/scripts_2/ddl_gold.sql) |
 ---
 
 ## 🔄 ETL Flow Summary
